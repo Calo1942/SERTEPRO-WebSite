@@ -1,0 +1,18 @@
+@use '../utils/variables' as *;
+
+i {
+    width: 30px;
+    height: 30px;
+}
+
+//------------------------------------ Dark-Mode ------------------------------------//
+
+.icon-dark-mode {
+    color: var(--accent-white);
+}
+
+//------------------------------------ Light-Mode ------------------------------------//
+
+.icon-light-mode {
+    color: var(--accent-black);
+}

@@ -1,0 +1,18 @@
+services:
+  php:
+    build:  
+      context: ./
+      dockerfile: Dockerfile
+    container_name: php-server
+    ports:
+      - "8080:80"
+    volumes:
+      - ../:/var/www/html #./src:/var/www/html
+
+  sass:
+    image: node:latest
+    container_name: node-with-sass
+    volumes:
+      - ../:/var/www/html
+    working_dir: /var/www/html
+    command: sh -c "npm install -g sass && sass --watch --poll src/styles/scss/main.scss:src/styles/css/main.css"

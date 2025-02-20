@@ -1,0 +1,58 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+button {
+    font-family: var(--font-poppins);
+    font-size: var(--normal-paragraph);
+    border-radius: 9999px;
+    height: 40px;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    @include flex-center;
+}
+
+.button-soft {
+    background-color: var(--accent-gray);
+}
+
+//------------------------------------ Dark-Mode ------------------------------------//
+
+.button-cta-dark-mode {
+    background-color: var(--accent-beige);
+    color: var(--accent-black);
+}
+
+.button-normal-dark-mode {
+    background-color: var(--accent-beige-medium);
+    color: var(--accent-beige);
+}
+
+.button-light-dark-mode {
+    background-color: transparent;
+    color: var(--accent-beige);
+    border: 2px solid var(--accent-beige);
+    padding: 5px 40px;
+}
+
+//------------------------------------ Light-Mode ------------------------------------//
+
+.button-cta-light-mode {
+    background-color: var(--accent-black);
+    color: var(--accent-beige);
+}
+
+.button-normal-light-mode {
+    background-color: var(--accent-gray-medium);
+    color: var(--accent-black);
+}
+
+.button-light-light-mode {
+    background-color: transparent;
+    color: var(--accent-gray);
+    border: 2px solid var(--accent-gray);
+    padding: 5px 40px;
+}

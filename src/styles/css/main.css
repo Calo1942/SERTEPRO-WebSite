@@ -1,0 +1,121 @@
+:root {
+  --font-color-basics: #F4F5EE;
+  --font-color-medium: #D9DAD3;
+  --font-color-low: #989992;
+  --font-color-basics: #313130;
+  --font-color-medium: #393939;
+  --font-color-low: #6B6D6E;
+  --accent-white: #FFFFFF;
+  --accent-black: #000000;
+  --accent-beige: #C9CDBC;
+  --accent-gray: #696B61;
+  --accent-mint: #00C9A2;
+  --accent-pear: #C7E502;
+  --accent-veronica: #9A3CEC;
+  --accent-beige-medium: rgba(251, 205, 188, 0.18);
+  --accent-beige-low: rgba(251, 205, 188, 0.10);
+  --accent-gray-medium: rgba(105, 107, 97, 0.18);
+  --accent-black-medium: rgba(000, 000, 000, 0.18);
+  --font-frank-ruhl-libre: "Frank Ruhl Libre", "Times New Roman";
+  --font-poppins: "Poppins", "Roboto";
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+  --h1-main-heading-type-one: 48px;
+  --h2-title-basic-model: 40px;
+  --h3-subtitle-basic-model: 30px;
+  --h4-strong-text-basic: 24px;
+  --h1-mobile-main-heading-type-one: 38px;
+  --h2-mobile-title-basic-model: 28px;
+  --h3-mobile-subtitle-basic-model: 26px;
+  --h4-mobile-strong-text-basic: 24px;
+  --mini-text: 12px;
+  --normal-paragraph: 16px;
+  --descriptive-paragraph: 20px;
+  --subtitle-paragraph: 32px;
+  --mobile-normal-paragraph: 14.5px;
+  --mobile-descriptive-paragraph: 18px;
+  --mobile-subtitle-paragraph: 26px;
+}
+
+button {
+  font-family: var(--font-poppins);
+  font-size: var(--normal-paragraph);
+  border-radius: 9999px;
+  height: 40px;
+  padding: 8px 40px;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-soft {
+  background-color: var(--accent-gray);
+}
+
+.button-cta-dark-mode {
+  background-color: var(--accent-beige);
+  color: var(--accent-black);
+}
+
+.button-normal-dark-mode {
+  background-color: var(--accent-beige-medium);
+  color: var(--accent-beige);
+}
+
+.button-light-dark-mode {
+  background-color: transparent;
+  color: var(--accent-beige);
+  border: 2px solid var(--accent-beige);
+  padding: 5px 40px;
+}
+
+.button-cta-light-mode {
+  background-color: var(--accent-black);
+  color: var(--accent-beige);
+}
+
+.button-normal-light-mode {
+  background-color: var(--accent-gray-medium);
+  color: var(--accent-black);
+}
+
+.button-light-light-mode {
+  background-color: transparent;
+  color: var(--accent-gray);
+  border: 2px solid var(--accent-gray);
+  padding: 5px 40px;
+}
+
+i {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-dark-mode {
+  color: var(--accent-white);
+}
+
+.icon-light-mode {
+  color: var(--accent-black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
