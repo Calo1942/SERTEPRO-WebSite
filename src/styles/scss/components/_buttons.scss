@@ -10,11 +10,6 @@ button {
     cursor: pointer;
 }
 
-body {
-    height: 100vh;
-    @include flex-center;
-}
-
 .button-soft {
     background-color: var(--accent-gray);
 }

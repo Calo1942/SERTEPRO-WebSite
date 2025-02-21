@@ -49,13 +49,6 @@ button {
   cursor: pointer;
 }
 
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .button-soft {
   background-color: var(--accent-gray);
 }
@@ -112,6 +105,7 @@ i {
   padding: 0;
   border: none;
   box-sizing: border-box;
+  font-optical-sizing: auto;
 }
 
 ol, ul {

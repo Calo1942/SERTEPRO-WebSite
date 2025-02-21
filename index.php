@@ -29,7 +29,5 @@
     <section id="newsletter" class="blocks"></section>
 
     <footer id="contact"></footer>
-    <button class="button-light-light-mode">Hola</button>
-    <i data-lucide="sun-medium" class="icon-light-mode"></i>
 </body>
 </html>
