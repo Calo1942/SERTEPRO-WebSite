@@ -18,7 +18,52 @@
     <title>SERTEPRO - Desarrolla tu marca</title>
 </head>
 <body>
-    <section id="hero" class="blocks"></section>
+    <section id="hero-container" class="blocks">
+        <div id="hero">
+            <div class="gallery-container">
+                <div id="gallery">
+                    <div id="top-bar">
+                        <img src="src/assets/img/sertepro-logo.png" alt="">
+                        <div id="nav-menu">
+                            <div class="option"></div>
+                            <div class="option"></div>
+                        </div>
+                    </div>
+                    <div id="gallery-images-container">
+                        <img src="src/assets/img/images-example.webp" alt="" id="hero-galley-image1">
+                        <div id="img-container">
+                            <img src="src/assets/img/images-example.webp" alt="" id="hero-galley-image2">
+                        </div>
+                        <img src="src/assets/img/images-example.webp" alt="" id="hero-galley-image3">
+                    </div>
+                </div>
+            </div>
+
+            <div id="description-content">
+                <div id="description">
+                    <div id="circle-interaction-container">
+                        <div id="circle-interaction"></div>
+                    </div>
+                    <div id="content">
+                        <h1>Main Heading Type One</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, autem voluptatibus dicta quod obcaecati minus eum natus, aliquam illum, neque quis nesciunt unde deleniti cum!</p>
+                    </div>
+                    <nav>
+                        <ul class="links">
+                            <li><a href="#">Hey!</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Conócenos</a></li>
+                            <li><a href="#">Proyectos</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                        <ul>
+                            <li><button class="button-cta-dark-mode">Contactanos</button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="services" class="blocks"></section>
 
